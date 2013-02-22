@@ -48,7 +48,7 @@ public class Screen {
 		for (int y = 0; y < tile.sprite.SIZE; y++) {
 			// ya = y absolute; yp = y position
 			int ya = y + yp;
-			for (int x = 0; y < tile.sprite.SIZE; y++) {
+			for (int x = 0; x < tile.sprite.SIZE; x++) {
 				// xa = x absolute (in relation to the world); xp = x position
 				int xa = x + xp;
 				if (xa < 0 || xa >= width || ya < 0 || ya >= width) break;
