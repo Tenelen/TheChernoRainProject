@@ -12,3 +12,22 @@ http://www.reddit.com/r/thecherno/comments/1907nq/problem_with_rendering_the_lev
 
 The SpriteSheet that I am using looks like this: 
 http://i.imgur.com/CuZJSwj.png
+
+
+I realized that I don't understand how to put each of the files that I have created
+into a "folder" on GitHub. I hope that this helps:
+
+src\com\thecherno\rain\Game.java
+
+src\com\thecherno\rain\graphics\Screen.java
+src\com\thecherno\rain\graphics\Sprite.java
+src\com\thecherno\rain\graphics\SpriteSheet.java
+
+src\com\thecherno\rain\graphics\input\Keyboard.java
+
+src\com\thecherno\rain\graphics\level\Level.java
+src\com\thecherno\rain\graphics\level\RandomLevel.java
+
+src\com\thecherno\rain\graphics\level\tile\GrassTile.java
+src\com\thecherno\rain\graphics\level\tile\Tile.java
+src\com\thecherno\rain\graphics\level\tile\VoidTile.java
